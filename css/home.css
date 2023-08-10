@@ -1,0 +1,404 @@
+@import url("https:/fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  cursor: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAA5SURBVHgB7ZShDgAgFAIP5///Ms6swfCCU4iEK8cQYArTKM6HwL4r7TNPkpYuUgJ8Ejinnvu6DDgAYb4FJ9htG4wAAAAASUVORK5CYII="),
+    auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.navbar .navbar-desktop a {
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: 0.5rem;
+  color: white;
+  display: inline-block;
+  font-size: 1.25rem;
+  margin: 0 1.5rem;
+  transition: 0.5s;
+}
+
+.navbar .navbar-desktop a:hover {
+  letter-spacing: 0.15rem;
+}
+
+#menu-button {
+  display: none;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.home-top {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  animation: home-top 6s infinite ease;
+}
+
+@keyframes home-top {
+  0% {
+    background-image: url(../images/home/light/F.svg);
+  }
+  5% {
+    background-image: url(../images/home/light/F.svg);
+  }
+  10% {
+    background-image: url(../images/home/light/A.svg);
+  }
+  15% {
+    background-image: url(../images/home/light/A.svg);
+  }
+  20% {
+    background-image: url(../images/home/light/D.svg);
+  }
+  25% {
+    background-image: url(../images/home/light/D.svg);
+  }
+  30% {
+    background-image: url(../images/home/light/T.svg);
+  }
+  35% {
+    background-image: url(../images/home/light/T.svg);
+  }
+  40% {
+    background-image: url(../images/home/light/FADT.svg);
+  }
+  45% {
+    background-image: url(../images/home/light/FADT.svg);
+  }
+  50% {
+    background-image: url(../images/home/light/FADT.svg);
+  }
+  55% {
+    background-image: url(../images/home/light/FADT.svg);
+  }
+  60% {
+    background-image: url(../images/home/light/FADT.svg);
+  }
+  65% {
+    background-image: url(../images/home/light/FADT.svg);
+  }
+  70% {
+    background-image: url(../images/home/light/FADT.svg);
+  }
+  75% {
+    background-image: url(../images/home/light/FADT.svg);
+  }
+  80% {
+    background-image: url(../images/home/light/FADT.svg);
+  }
+  85% {
+    background-image: url(../images/home/light/FADT.svg);
+  }
+  90% {
+    background-image: url(../images/home/light/FADT.svg);
+  }
+  95% {
+    background-image: url(../images/home/light/FADT.svg);
+  }
+  100% {
+    background-image: url(../images/home/light/F.svg);
+  }
+}
+
+.home-bottom {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  animation: home-bottom 6s infinite ease;
+}
+
+@keyframes home-bottom {
+  0% {
+    background-image: url(../images/home/dark/F.svg);
+  }
+  5% {
+    background-image: url(../images/home/dark/F.svg);
+  }
+  10% {
+    background-image: url(../images/home/dark/A.svg);
+  }
+  15% {
+    background-image: url(../images/home/dark/A.svg);
+  }
+  20% {
+    background-image: url(../images/home/dark/D.svg);
+  }
+  25% {
+    background-image: url(../images/home/dark/D.svg);
+  }
+  30% {
+    background-image: url(../images/home/dark/T.svg);
+  }
+  35% {
+    background-image: url(../images/home/dark/T.svg);
+  }
+  40% {
+    background-image: url(../images/home/dark/FADT.svg);
+  }
+  45% {
+    background-image: url(../images/home/dark/FADT.svg);
+  }
+  50% {
+    background-image: url(../images/home/dark/FADT.svg);
+  }
+  55% {
+    background-image: url(../images/home/dark/FADT.svg);
+  }
+  60% {
+    background-image: url(../images/home/dark/FADT.svg);
+  }
+  65% {
+    background-image: url(../images/home/dark/FADT.svg);
+  }
+  70% {
+    background-image: url(../images/home/dark/FADT.svg);
+  }
+  75% {
+    background-image: url(../images/home/dark/FADT.svg);
+  }
+  80% {
+    background-image: url(../images/home/dark/FADT.svg);
+  }
+  85% {
+    background-image: url(../images/home/dark/FADT.svg);
+  }
+  90% {
+    background-image: url(../images/home/dark/FADT.svg);
+  }
+  95% {
+    background-image: url(../images/home/dark/FADT.svg);
+  }
+  100% {
+    background-image: url(../images/home/dark/F.svg);
+  }
+}
+
+.link {
+  z-index: 9999;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.link ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  filter: invert;
+}
+
+.link li {
+  margin: 1rem;
+  font-size: 2.8rem;
+  transition: transform 0.2s ease;
+  filter: invert(50%);
+}
+
+.link li:hover {
+  transform: translateY(-0.6rem);
+}
+
+@media (max-width: 766px) {
+  #menu-button {
+    display: inline-block;
+  }
+
+  .navbar .navbar-desktop {
+    color: white;
+    position: absolute;
+    top: 100%;
+    right: -200%;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    transition: 0.5s;
+  }
+
+  .navbar .navbar-desktop.active {
+    right: 0;
+  }
+
+  .navbar .navbar-desktop a {
+    display: block;
+    padding: 1rem;
+  }
+
+  .navbar .navbar-desktop a::after {
+    transform-origin: 1;
+  }
+
+  .navbar .navbar-desktop a:hover::after {
+    transform: scaleX(0);
+  }
+
+  .home-top {
+    animation: home-top-s 6s infinite ease;
+  }
+
+  @keyframes home-top-s {
+    0% {
+      background-image: url(../images/home/light/s/F.svg);
+    }
+    5% {
+      background-image: url(../images/home/light/s/F.svg);
+    }
+    10% {
+      background-image: url(../images/home/light/s/A.svg);
+    }
+    15% {
+      background-image: url(../images/home/light/s/A.svg);
+    }
+    20% {
+      background-image: url(../images/home/light/s/D.svg);
+    }
+    25% {
+      background-image: url(../images/home/light/s/D.svg);
+    }
+    30% {
+      background-image: url(../images/home/light/s/T.svg);
+    }
+    35% {
+      background-image: url(../images/home/light/s/T.svg);
+    }
+    40% {
+      background-image: url(../images/home/light/s/FADT.svg);
+    }
+    45% {
+      background-image: url(../images/home/light/s/FADT.svg);
+    }
+    50% {
+      background-image: url(../images/home/light/s/FADT.svg);
+    }
+    55% {
+      background-image: url(../images/home/light/s/FADT.svg);
+    }
+    60% {
+      background-image: url(../images/home/light/s/FADT.svg);
+    }
+    65% {
+      background-image: url(../images/home/light/s/FADT.svg);
+    }
+    70% {
+      background-image: url(../images/home/light/s/FADT.svg);
+    }
+    75% {
+      background-image: url(../images/home/light/s/FADT.svg);
+    }
+    80% {
+      background-image: url(../images/home/light/s/FADT.svg);
+    }
+    85% {
+      background-image: url(../images/home/light/s/FADT.svg);
+    }
+    90% {
+      background-image: url(../images/home/light/s/FADT.svg);
+    }
+    95% {
+      background-image: url(../images/home/light/s/FADT.svg);
+    }
+    100% {
+      background-image: url(../images/home/light/s/F.svg);
+    }
+  }
+
+  .home-bottom {
+    animation: home-bottom-s 6s infinite ease;
+  }
+
+  @keyframes home-bottom-s {
+    0% {
+      background-image: url(../images/home/dark/s/F.svg);
+    }
+    5% {
+      background-image: url(../images/home/dark/s/F.svg);
+    }
+    10% {
+      background-image: url(../images/home/dark/s/A.svg);
+    }
+    15% {
+      background-image: url(../images/home/dark/s/A.svg);
+    }
+    20% {
+      background-image: url(../images/home/dark/s/D.svg);
+    }
+    25% {
+      background-image: url(../images/home/dark/s/D.svg);
+    }
+    30% {
+      background-image: url(../images/home/dark/s/T.svg);
+    }
+    35% {
+      background-image: url(../images/home/dark/s/T.svg);
+    }
+    40% {
+      background-image: url(../images/home/dark/s/FADT.svg);
+    }
+    45% {
+      background-image: url(../images/home/dark/s/FADT.svg);
+    }
+    50% {
+      background-image: url(../images/home/dark/s/FADT.svg);
+    }
+    55% {
+      background-image: url(../images/home/dark/s/FADT.svg);
+    }
+    60% {
+      background-image: url(../images/home/dark/s/FADT.svg);
+    }
+    65% {
+      background-image: url(../images/home/dark/s/FADT.svg);
+    }
+    70% {
+      background-image: url(../images/home/dark/s/FADT.svg);
+    }
+    75% {
+      background-image: url(../images/home/dark/s/FADT.svg);
+    }
+    80% {
+      background-image: url(../images/home/dark/s/FADT.svg);
+    }
+    85% {
+      background-image: url(../images/home/dark/s/FADT.svg);
+    }
+    90% {
+      background-image: url(../images/home/dark/s/FADT.svg);
+    }
+    95% {
+      background-image: url(../images/home/dark/s/FADT.svg);
+    }
+    100% {
+      background-image: url(../images/home/dark/s/F.svg);
+    }
+  }
+
+  .link li {
+    margin: 0.4rem;
+    font-size: 2.3rem;
+    filter: invert(50%);
+  }
+}

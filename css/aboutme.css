@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  cursor: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAA5SURBVHgB7ZShDgAgFAIP5///Ms6swfCCU4iEK8cQYArTKM6HwL4r7TNPkpYuUgJ8Ejinnvu6DDgAYb4FJ9htG4wAAAAASUVORK5CYII="),
+    auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.navbar .navbar-desktop a {
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: 0.5rem;
+  color: white;
+  display: inline-block;
+  font-size: 1.25rem;
+  margin: 0 1.5rem;
+  transition: 0.5s;
+}
+
+.navbar .navbar-desktop a:hover {
+  letter-spacing: 0.15rem;
+}
+
+#menu-button {
+  display: none;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.about-top {
+  display: flex;
+  min-height: 100vh;
+}
+
+.about-top .left {
+  flex: 1;
+  background: url(../images/aboutme/bg/dark.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.about-top .right {
+  flex: 1;
+  background: white;
+}
+
+.about-top h1 {
+  text-align: left !important;
+  font-size: 4rem;
+}
+
+.about-top p {
+  margin-top: 1.5rem;
+  line-height: 2.3rem;
+  text-indent: 3rem;
+}
+
+.about-top img {
+  padding-left: 0.5rem;
+}
+
+.about-top .right .text {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  text-align: justify;
+  color: black;
+  font-size: 1.25rem;
+}
+
+.about-bottom {
+  display: flex;
+  min-height: 100vh;
+}
+
+.about-bottom .left {
+  flex: 1;
+  background: black;
+}
+
+.about-bottom h1 {
+  text-align: left !important;
+  font-size: 4rem;
+}
+
+.about-bottom p {
+  margin-top: 1.5rem;
+  line-height: 2.3rem;
+  text-indent: 3rem;
+}
+
+.about-bottom img {
+  padding-left: 0.5rem;
+}
+
+.about-bottom .left .text {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  text-align: justify;
+  color: white;
+  font-size: 1.25rem;
+}
+
+.about-bottom .right {
+  flex: 1;
+  background: url(../images/aboutme/bg/light.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+@media (max-width: 766px) {
+  #menu-button {
+    display: inline-block;
+  }
+
+  .navbar .navbar-desktop {
+    color: white;
+    position: absolute;
+    top: 100%;
+    right: -200%;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    transition: 0.5s;
+  }
+
+  .navbar .navbar-desktop.active {
+    right: 0;
+  }
+
+  .navbar .navbar-desktop a {
+    display: block;
+    padding: 1rem;
+  }
+
+  .navbar .navbar-desktop a::after {
+    transform-origin: 1;
+  }
+
+  .navbar .navbar-desktop a:hover::after {
+    transform: scaleX(0);
+  }
+
+  .about-top {
+    display: block;
+  }
+
+  .about-top .left {
+    display: none;
+  }
+
+  .about-top h1 {
+    font-size: 2.2rem !important;
+  }
+
+  .about-top img {
+    height: 1.74rem !important;
+  }
+
+  .about-top p {
+    font-size: 1rem;
+    margin-top: 0.5rem !important;
+    text-indent: 3rem;
+    line-height: 1.8rem !important;
+  }
+
+  .about-top .right .text {
+    margin: 2rem !important;
+    margin-top: 6rem !important;
+    text-align: justify;
+    color: black;
+    font-size: 0.5rem !important;
+  }
+
+  .about-bottom {
+    display: block;
+  }
+
+  .about-bottom .right {
+    display: none;
+  }
+
+  .about-bottom h1 {
+    font-size: 2.2rem !important;
+  }
+
+  .about-bottom img {
+    height: 1.9rem !important;
+  }
+
+  .about-bottom p {
+    font-size: 1rem;
+    margin-top: 0.5rem !important;
+    text-indent: 3rem;
+    line-height: 1.8rem !important;
+  }
+
+  .about-bottom .left .text {
+    margin: 2rem !important;
+    margin-top: 6rem !important;
+    text-align: justify;
+    color: white;
+    font-size: 0.5rem !important;
+  }
+}

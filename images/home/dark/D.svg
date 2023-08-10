@@ -1,0 +1,8 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1920" height="1080" fill="black"/>
+<path d="M1210 490L1160 440H1360V490H1310V640H1260V490H1210Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M747.5 640V490L797.5 440H947.5V640H897.5V590H797.5V640H747.5ZM897.5 490H797.5V540H897.5V490Z" fill="white"/>
+<path d="M560 440V640H610V590H710V540H610V490H710L760 440H560Z" fill="white"/>
+<path d="M974.5 638V442H1121.67L1170.5 490.828V638H974.5Z" stroke="white" stroke-width="4"/>
+<path d="M1022.5 488H1020.5V490V590V592H1022.5H1122.5H1124.5V590V490V488H1122.5H1022.5Z" stroke="white" stroke-width="4"/>
+</svg>
