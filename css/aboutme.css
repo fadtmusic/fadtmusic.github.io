@@ -181,9 +181,9 @@
   }
 
   .about-top p {
-    font-size: 1rem;
+    font-size: 0.5rem;
     margin-top: 0.5rem !important;
-    text-indent: 3rem;
+    text-indent: 2rem;
     line-height: 1.8rem !important;
   }
 
@@ -196,7 +196,9 @@
   }
 
   .about-bottom {
-    display: block;
+    display: flex;
+    align-items: center;
+    background: black;
   }
 
   .about-bottom .right {
@@ -212,15 +214,15 @@
   }
 
   .about-bottom p {
-    font-size: 1rem;
+    font-size: 0.5rem;
     margin-top: 0.5rem !important;
-    text-indent: 3rem;
+    text-indent: 2rem;
     line-height: 1.8rem !important;
   }
 
   .about-bottom .left .text {
     margin: 2rem !important;
-    margin-top: 6rem !important;
+    margin-top: -6rem !important;
     text-align: justify;
     color: white;
     font-size: 0.5rem !important;
