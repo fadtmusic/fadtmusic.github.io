@@ -257,143 +257,17 @@
   }
 
   .home-top {
-    animation: home-top-s 6s infinite ease;
-  }
-
-  @keyframes home-top-s {
-    0% {
-      background-image: url(../images/home/light/s/F.svg);
-    }
-    5% {
-      background-image: url(../images/home/light/s/F.svg);
-    }
-    10% {
-      background-image: url(../images/home/light/s/A.svg);
-    }
-    15% {
-      background-image: url(../images/home/light/s/A.svg);
-    }
-    20% {
-      background-image: url(../images/home/light/s/D.svg);
-    }
-    25% {
-      background-image: url(../images/home/light/s/D.svg);
-    }
-    30% {
-      background-image: url(../images/home/light/s/T.svg);
-    }
-    35% {
-      background-image: url(../images/home/light/s/T.svg);
-    }
-    40% {
-      background-image: url(../images/home/light/s/FADT.svg);
-    }
-    45% {
-      background-image: url(../images/home/light/s/FADT.svg);
-    }
-    50% {
-      background-image: url(../images/home/light/s/FADT.svg);
-    }
-    55% {
-      background-image: url(../images/home/light/s/FADT.svg);
-    }
-    60% {
-      background-image: url(../images/home/light/s/FADT.svg);
-    }
-    65% {
-      background-image: url(../images/home/light/s/FADT.svg);
-    }
-    70% {
-      background-image: url(../images/home/light/s/FADT.svg);
-    }
-    75% {
-      background-image: url(../images/home/light/s/FADT.svg);
-    }
-    80% {
-      background-image: url(../images/home/light/s/FADT.svg);
-    }
-    85% {
-      background-image: url(../images/home/light/s/FADT.svg);
-    }
-    90% {
-      background-image: url(../images/home/light/s/FADT.svg);
-    }
-    95% {
-      background-image: url(../images/home/light/s/FADT.svg);
-    }
-    100% {
-      background-image: url(../images/home/light/s/F.svg);
-    }
+    background-image: url(../images/home/light/s/FADT.svg) !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .home-bottom {
-    animation: home-bottom-s 6s infinite ease;
-  }
-
-  @keyframes home-bottom-s {
-    0% {
-      background-image: url(../images/home/dark/s/F.svg);
-    }
-    5% {
-      background-image: url(../images/home/dark/s/F.svg);
-    }
-    10% {
-      background-image: url(../images/home/dark/s/A.svg);
-    }
-    15% {
-      background-image: url(../images/home/dark/s/A.svg);
-    }
-    20% {
-      background-image: url(../images/home/dark/s/D.svg);
-    }
-    25% {
-      background-image: url(../images/home/dark/s/D.svg);
-    }
-    30% {
-      background-image: url(../images/home/dark/s/T.svg);
-    }
-    35% {
-      background-image: url(../images/home/dark/s/T.svg);
-    }
-    40% {
-      background-image: url(../images/home/dark/s/FADT.svg);
-    }
-    45% {
-      background-image: url(../images/home/dark/s/FADT.svg);
-    }
-    50% {
-      background-image: url(../images/home/dark/s/FADT.svg);
-    }
-    55% {
-      background-image: url(../images/home/dark/s/FADT.svg);
-    }
-    60% {
-      background-image: url(../images/home/dark/s/FADT.svg);
-    }
-    65% {
-      background-image: url(../images/home/dark/s/FADT.svg);
-    }
-    70% {
-      background-image: url(../images/home/dark/s/FADT.svg);
-    }
-    75% {
-      background-image: url(../images/home/dark/s/FADT.svg);
-    }
-    80% {
-      background-image: url(../images/home/dark/s/FADT.svg);
-    }
-    85% {
-      background-image: url(../images/home/dark/s/FADT.svg);
-    }
-    90% {
-      background-image: url(../images/home/dark/s/FADT.svg);
-    }
-    95% {
-      background-image: url(../images/home/dark/s/FADT.svg);
-    }
-    100% {
-      background-image: url(../images/home/dark/s/F.svg);
-    }
+    background-image: url(../images/home/dark/s/FADT.svg) !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .link li {
