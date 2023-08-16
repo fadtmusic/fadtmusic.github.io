@@ -180,6 +180,16 @@
     height: 1.74rem !important;
   }
 
+  .about-top .right .text {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: justify;
+    color: black;
+    font-size: 1rem;
+  }
+
   .about-bottom {
     display: flex;
     align-items: center;
@@ -196,5 +206,15 @@
 
   .about-bottom img {
     height: 1.9rem !important;
+  }
+
+  .about-bottom .left .text {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: justify;
+    color: white;
+    font-size: 1rem;
   }
 }
