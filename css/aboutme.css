@@ -180,21 +180,6 @@
     height: 1.74rem !important;
   }
 
-  .about-top p {
-    font-size: 0.5rem;
-    margin-top: 0.5rem !important;
-    text-indent: 2rem;
-    line-height: 1.8rem !important;
-  }
-
-  .about-top .right .text {
-    margin: 2rem !important;
-    margin-top: 6rem !important;
-    text-align: justify;
-    color: black;
-    font-size: 0.5rem !important;
-  }
-
   .about-bottom {
     display: flex;
     align-items: center;
@@ -211,20 +196,5 @@
 
   .about-bottom img {
     height: 1.9rem !important;
-  }
-
-  .about-bottom p {
-    font-size: 0.5rem;
-    margin-top: 0.5rem !important;
-    text-indent: 2rem;
-    line-height: 1.8rem !important;
-  }
-
-  .about-bottom .left .text {
-    margin: 2rem !important;
-    margin-top: -6rem !important;
-    text-align: justify;
-    color: white;
-    font-size: 0.5rem !important;
   }
 }
