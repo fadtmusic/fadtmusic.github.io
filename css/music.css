@@ -53,12 +53,12 @@
 }
 
 .iframe-ajg {
-  margin-top: 6rem;
+  margin-top: 8rem;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 @media (max-width: 766px) {
